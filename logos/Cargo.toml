@@ -12,7 +12,7 @@ readme = "../README.md"
 edition = "2018"
 
 [dependencies]
-logos-derive = {git = "https://github.com/Plaba/logos", branch = "cps450-project" }
+logos-derive = {git = "https://github.com/Plaba/logos", branch = "cps450-project", optional = true }
 
 [features]
 default = ["export_derive", "std"]
